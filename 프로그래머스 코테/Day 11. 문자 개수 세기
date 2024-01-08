@@ -1,4 +1,4 @@
-## 다른사람의 문제풀이(실패...)
+## 다른사람의 문제풀이
 
 def solution(my_string):
     answer = [0] * 52

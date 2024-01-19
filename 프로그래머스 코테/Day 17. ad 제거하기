@@ -1,0 +1,13 @@
+## 나의 문제풀이
+
+def solution(strArr):
+    answer = []
+    for i in strArr:
+        if "ad" not in i:
+            answer.append(i)
+    return answer
+
+## 다른사람의 문제풀이
+
+def solution(strArr):
+    return [word for word in strArr if 'ad' not in word] # 이렇게 한줄로도 가능했다...!
